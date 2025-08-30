@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.back {
+    background-color: rgb(231, 235, 233);
+    width: 600px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.back h1 {
+    margin: 30px 0 0 45px;
+    font-size: 45px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 15px 30px 0 48px;
+}
+
+.field input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 18px;
+    font-size: 16px;
+
+}
+
+.field .btn {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.field2 {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 15px 30px 0 48px;
+}
+
+.field2 img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 290px;
+}
+
+.total {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.delete button {
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 280px;
+    cursor: pointer;
+}
+
+.field3 {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 325px 30px 0 48px;
+
+}
+
+@media screen and (max-width:480px) {
+    * {
+        align-items: center;
+    }
+
+    .back {
+        background-color: rgb(220, 217, 217);
+        max-width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .back h1 {
+        margin: 30px 0 0 45px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        height: 70px;
+        align-items: center;
+        max-width: 100%;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        margin: 15px 30px 0 48px;
+
+    }
+
+    .field input {
+        width: 250px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 12px;
+        font-size: 10px;
+        margin-left: 4px;
+
+
+    }
+
+    .field .btn {
+        padding: 5px 110px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-top: -5px;
+        margin-left: 6px;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+
+    .field2 {
+        display: flex;
+        height: 40px;
+        max-width: 300px;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        margin: 15px 30px 0 48px;
+    }
+
+    .field2 img {
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        margin-left: 105px;
+    }
+
+    .delete button {
+        padding: 8px 8px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: px;
+        cursor: pointer;
+    }
+
+    .field3 {
+        display: flex;
+        height: 40px;
+        align-items: center;
+        max-width: 300px;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        margin: 220px 30px 10px 35px;
+
+    }
+
+    .total {
+        margin-left: pxpx;
+        font-weight: bold;
+        font-size: 10px;
+        margin-right: 140px;
+    }
+
+}
