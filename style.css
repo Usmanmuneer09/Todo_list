@@ -115,22 +115,21 @@ body {
 @media screen and (max-width:480px) {
     * {
         align-items: center;
+        margin: auto;
     }
 
     .back {
         background-color: rgb(220, 217, 217);
-        max-width: 90vw;
+        max-width: 95vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .back h1 {
-        margin: 30px 0 0 45px;
-        font-size: 20px;
+        font-size: 30px;
+        margin: 15px 50px 0 50px;
         text-align: center;
-        margin-left: 10px;
-        margin-top: 0px;
     }
 
     .field {
@@ -139,17 +138,17 @@ body {
         margin-top: -20px;
         height: 70px;
         align-items: center;
-        max-width: 100%;
+        max-width: 800px;
         border: none;
         border-radius: 5px;
         background-color: #fff;
         overflow: hidden;
-        margin: 15px 30px 0 48px;
+        margin: 40px 50px 0 50px;
 
     }
 
     .field input {
-        width: 250px;
+        width: 300px;
         height: 50px;
         border: none;
         outline: none;
@@ -161,7 +160,7 @@ body {
     }
 
     .field .btn {
-        padding: 5px 110px;
+        padding: 5px 135px;
         background-color: #007BFF;
         color: white;
         border: none;
@@ -176,12 +175,12 @@ body {
     .field2 {
         display: flex;
         height: 40px;
-        max-width: 300px;
+        width: 330px;
         border: none;
         border-radius: 5px;
         background-color: #fff;
         overflow: hidden;
-        margin: 15px 30px 0 48px;
+        margin: 15px 0px 0 0px;
     }
 
     .field2 img {
@@ -198,14 +197,13 @@ body {
     }
 
     .delete button {
-        padding: 8px 8px;
+        padding: 5px 5px 5px 5px;
         background-color: red;
         color: white;
         border: none;
         border-radius: 5px;
-        font-size: 16px;
-        margin-left: 0px;
-        margin-right: px;
+        font-size: 12px;
+        margin-left: 1px;
         cursor: pointer;
     }
 
@@ -213,12 +211,12 @@ body {
         display: flex;
         height: 40px;
         align-items: center;
-        max-width: 300px;
+        width: 330px;
         border: none;
         border-radius: 5px;
         background-color: #fff;
         overflow: hidden;
-        margin: 220px 30px 10px 35px;
+        margin: 220px 0px 0px 0px;
 
     }
 
@@ -226,7 +224,7 @@ body {
         margin-left: pxpx;
         font-weight: bold;
         font-size: 10px;
-        margin-right: 140px;
+        margin-right: 190px;
     }
 
 }
